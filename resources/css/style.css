@@ -1,0 +1,57 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: auto;
+}
+
+.info-table, .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table td, .data-table th, .data-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.description {
+    margin-top: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.footer {
+    text-align: right;
+    margin-top: 100px auto;
+}
+
+@media print {
+    .print-button {
+        display: none;
+    }
+    /* Tambahkan gaya lain yang hanya untuk mode cetak */
+}
+
